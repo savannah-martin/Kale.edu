@@ -177,14 +177,15 @@ header nav.main .main_nav_item {
 }
 
 .kale-header {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .kale-header .headings {
-    padding: 10px;
+  padding: 10px;
 }
 
 .maingrid {
+  color: white;
   height: 200vh;
   display: grid;
   grid-template-columns: 0.5fr 1.4fr 0.7fr 0.7fr 1.4fr 1.4fr 0.5fr;
@@ -192,69 +193,78 @@ header nav.main .main_nav_item {
   gap: 0px 0px;
   grid-auto-flow: row;
 }
-
-.box5 {
-  grid-area: 1 / 4 / 6 / 8;
-  background-image: url(/images/tower.jpg);
-  background-size: cover;
-
-  z-index: -4;
+.box0 {
+  z-index: -5;
+  grid-area: 2 / 1 / 9 / 8;
+  background-color: #00356b;
 }
-
-.box3 {
-  grid-area: 4 / 2 / 5 / 3;
-  background-color: #00180c;
-}
-
-.box4 {
-  grid-area: 4 / 3 / 5 / 5;
-  background-image: url(/images/map.jpg);
-  background-size: cover;
-}
-
 .box1 {
   grid-area: 3 / 2 / 4 / 3;
   background-color: #286dc0;
 }
-
 .box2 {
   grid-area: 3 / 3 / 4 / 5;
   background-image: url(/images/map.jpg);
   background-image: url(/images/library.jpg);
   background-size: cover;
 }
-
+.box3 {
+  grid-area: 4 / 2 / 5 / 3;
+  background-color: #031b09;
+}
+.box4 {
+  grid-area: 4 / 3 / 5 / 5;
+  background-image: url(/images/map.jpg);
+  background-size: cover;
+}
+.box5 {
+  grid-area: 1 / 4 / 6 / 8;
+  background-image: url(/images/tower.jpg);
+  background-size: cover;
+  z-index: -4;
+}
 .box6 {
   grid-area: 5 / 2 / 8 / 5;
   background-image: url(/images/people.jpg);
   background-size: cover;
 }
-
 .box7 {
   grid-area: 5 / 5 / 7 / 6;
-  background-color: #00180c;
+  background-color: #031b09;
 }
-
 .box8 {
   grid-area: 5 / 6 / 7 / 7;
   background-image: url(/images/animals.jpg);
   background-size: cover;
 }
-
 .box9 {
   grid-area: 7 / 5 / 8 / 6;
   background-image: url(/images/hammock.jpg);
   background-size: cover;
 }
-
 .box10 {
   grid-area: 7 / 6 / 8 / 7;
   background-image: url(/images/building.jpg);
   background-size: cover;
 }
 
-.box0 {
-  z-index: -5;
-  grid-area: 2 / 1 / 9 / 8;
-  background-color: #00356b;
+.overlay-d {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.63);
+}
+.overlay-g {
+  height: 100%;
+  background-color: rgba(97, 134, 37, 0.747);
+}
+.overlay-o {
+  height: 100%;
+  background-color: rgba(184, 80, 11, 0.781);
+}
+.overlay-s {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.466);
+}
+.overlay-t {
+  height: 100%;
+  background-color: rgba(170, 149, 135, 0.733);
 }
