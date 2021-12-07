@@ -474,6 +474,10 @@ header nav.main .main_nav_item {
   color: #286dc0;
   padding-top: 5px;
 }
+.box7 p:hover {
+  transition: 400ms;
+  padding-bottom: 20px;
+}
 .box8 {
   grid-area: 5 / 6 / 7 / 7;
   background-image: url(/images/animals.jpg);
@@ -496,6 +500,10 @@ header nav.main .main_nav_item {
   text-transform: uppercase;
   font-size: small;
   padding-top: 5px;
+}
+.box8 p:hover {
+  transition: 400ms;
+  padding-bottom: 20px;
 }
 .box9 {
   grid-area: 7 / 5 / 8 / 6;
@@ -520,6 +528,10 @@ header nav.main .main_nav_item {
   font-size: small;
   padding-top: 5px;
 }
+.box9 p:hover {
+  transition: 400ms;
+  padding-bottom: 20px;
+}
 .box10 {
   grid-area: 7 / 6 / 8 / 7;
   background-image: url(/images/building.jpg);
@@ -542,6 +554,10 @@ header nav.main .main_nav_item {
   text-transform: uppercase;
   font-size: small;
   padding-top: 5px;
+}
+.box10 p:hover {
+  transition: 400ms;
+  padding-bottom: 20px;
 }
 
 .overlay-d {
