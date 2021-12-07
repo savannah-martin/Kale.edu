@@ -364,6 +364,7 @@ header nav.main .main_nav_item {
 .inner5 h1 {
   margin-left: 25%;
   font-size: 2.8em;
+  font-weight: 400;
 }
 .inner5 p {
   margin-left: 25%;
@@ -604,4 +605,56 @@ header nav.main .main_nav_item {
 }
 .fa-caret-right {
   margin-top: 7px;
+}
+footer {
+  background-color: #222222;
+}
+footer h2 {
+  color: #286dc0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+.footer-cell {
+  height: 93vh;
+  display: grid;
+  grid-template-columns: 0.3fr 1fr 0.7fr 1.1fr 0.3fr;
+  grid-template-rows: 0.4fr 1fr 0.3fr 0.9fr 1.2fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . . ."
+    ". footer_nav_section . region-footer-ig ."
+    ". footer_nav_section . region-footer-ig ."
+    ". footer_nav_section . . ."
+    ". footer_legal . social_properties .";
+}
+
+.footer_nav_section {
+  grid-area: footer_nav_section;
+}
+
+.region-footer-ig {
+  grid-area: region-footer-ig;
+}
+
+.social_properties {
+  grid-area: social_properties;
+}
+
+.footer_legal {
+  grid-area: footer_legal;
+}
+
+figcaption {
+  position: relative;
+  top: -2em;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  font-size: 1.4em;
+}
+figcaption a {
+  text-decoration: none;
 }
