@@ -183,7 +183,22 @@ header nav.main .main_nav_item {
 .kale-header .headings {
   padding: 10px;
 }
-
+.kale-header h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #286dc0;
+  padding: 5px;
+  letter-spacing: 1px;
+}
+.kale-header h2 {
+  margin-bottom: 25px;
+  font-size: 2.6em;
+  font-weight: 400;
+  color: #00356b;
+  padding: 5px;
+}
 .maingrid {
   color: white;
   height: 200vh;
@@ -197,6 +212,9 @@ header nav.main .main_nav_item {
   z-index: -5;
   grid-area: 2 / 1 / 9 / 8;
   background-color: #00356b;
+}
+.fa-caret-down {
+    color: #286dc0
 }
 .box1 {
   grid-area: 3 / 2 / 4 / 3;
@@ -344,15 +362,18 @@ header nav.main .main_nav_item {
   text-shadow: 2px 2px 5px black;
 }
 .inner5 h1 {
+  margin-left: 25%;
   font-size: 2.8em;
 }
 .inner5 p {
+  margin-left: 25%;
   text-transform: uppercase;
   font-size: small;
   padding-top: 5px;
   font-size: 1em;
 }
 .inner5 span {
+  margin-left: 25%;
   border-top: 1px solid white;
   width: 10%;
 }
@@ -366,7 +387,7 @@ header nav.main .main_nav_item {
   text-transform: uppercase;
   border: 1px solid white;
   padding: 10px;
-  width: 40%;
+  width: 45%;
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
@@ -383,7 +404,7 @@ header nav.main .main_nav_item {
   justify-content: space-between;
   text-transform: uppercase;
   padding: 10px;
-  width: 40%;
+  width: 45%;
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #286dc0;
@@ -400,6 +421,7 @@ header nav.main .main_nav_item {
   margin: 10px;
 }
 .button-group5 {
+  margin-left: 25%;
   display: flex;
 }
 .box6 {
@@ -579,4 +601,7 @@ header nav.main .main_nav_item {
 .overlay-t {
   height: 100%;
   background-color: rgba(170, 149, 135, 0.733);
+}
+.fa-caret-right {
+  margin-top: 7px;
 }
