@@ -22,7 +22,7 @@
 .covid-banner .container {
   width: 40%;
   position: relative;
-  left: -27%;
+  left: -22%;
 }
 .covid-banner h1 {
   font-size: 1.1em;
@@ -210,7 +210,39 @@ header nav.main .main_nav_item {
   padding: 20px;
   text-decoration: none;
 }
-
+.header1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 14%;
+  line-height: 2em;
+  font-family: "Times New Roman", Times, serif;
+}
+.header1 h1 {
+  font-size: 2.8em;
+  color: #00356b;
+  font-weight: 200;
+  line-height: 1.1em;
+}
+.header1 p {
+  text-transform: uppercase;
+  font-size: small;
+  padding-top: 5px;
+  font-size: 1em;
+}
+.header1 span {
+  border-top: 1px solid rgb(163, 163, 163);
+  width: 10%;
+}
+.header1 .lower {
+  text-transform: none;
+  font-size: 1.3em;
+}
+.header1 a {
+  color: #00356b;
+  border: 1px solid #b4b4b4;
+  width: 35%;
+}
 .kale-header {
   margin-top: 100px;
 }
