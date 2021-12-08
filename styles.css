@@ -11,7 +11,34 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.covid-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #d6e5f8;
+  height: 110px;
+  align-items: start;
+}
+.covid-banner .container {
+  width: 40%;
+  position: relative;
+  left: -25%;
+}
+.covid-banner h1 {
+  font-size: 1.1em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1em;
+  padding: 10px;
+}
+.covid-banner a {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  font-size: 1.5em;
+  text-decoration: none;
+  padding: 10px;
+  border-bottom: rgba(0, 0, 0, 0.63);
+}
 body {
   font-family: "Crimson Pro", serif;
 }
