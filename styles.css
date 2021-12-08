@@ -686,8 +686,8 @@ footer h2 {
 .footer-cell {
   height: 93vh;
   display: grid;
-  grid-template-columns: 0.3fr 1fr 0.7fr 1.1fr 0.3fr;
-  grid-template-rows: 0.4fr 1fr 0.3fr 0.9fr 1.2fr;
+  grid-template-columns: 0.3fr 1.9fr 0.2fr 1fr 0.2fr;
+  grid-template-rows: 0.4fr 1fr 0.6fr 0.6fr 0.5fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
@@ -714,6 +714,15 @@ footer h2 {
   grid-area: footer_legal;
 }
 
+.region-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.region-footer-ig {
+  background-image: url(/images/dog.jpg);
+  background-size: cover;
+}
 figcaption {
   position: relative;
   top: -2em;
