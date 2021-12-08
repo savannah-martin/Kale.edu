@@ -22,7 +22,7 @@
 .covid-banner .container {
   width: 40%;
   position: relative;
-  left: -25%;
+  left: -27%;
 }
 .covid-banner h1 {
   font-size: 1.1em;
@@ -38,6 +38,14 @@
   text-decoration: none;
   padding: 10px;
   border-bottom: rgba(0, 0, 0, 0.63);
+}
+header .logo {
+  color: #00356b;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3.2em;
+}
+header h1 {
+  font-weight: 100;
 }
 body {
   font-family: "Crimson Pro", serif;
